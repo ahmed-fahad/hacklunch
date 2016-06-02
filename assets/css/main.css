@@ -1,0 +1,48 @@
+.form-control {
+  border: 1px solid #ccc;
+  padding: 5px 8px;
+  color: #212121;
+  background: #ffffff;
+  box-shadow: none !important;
+  border-radius: 2px; }
+
+.form-control:focus {
+  border: 1px solid #a6a6a6;
+  background: #fff;
+  box-shadow: none; }
+
+.btn-success {
+  background-color: #4385F5;
+  color: #ffffff;
+  border-color: #1366f2;
+  border-radius: 2px; }
+
+.btn-success:hover {
+  background-color: #1366f2;
+  color: #ffffff;
+  border-color: #1366f2; }
+
+.form-horizontal {
+  padding-top: 100px; }
+
+.forgot-pass {
+  color: #b3b3b3;
+  font-style: italic;
+  padding-left: 15px; }
+
+.forgot-pass:hover {
+  color: #999999;
+  text-decoration: none; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ffffff; }
+
+.space {
+  padding-top: 100px; }
+
+/*# sourceMappingURL=main.css.map */

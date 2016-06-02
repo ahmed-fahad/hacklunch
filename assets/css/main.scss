@@ -1,0 +1,56 @@
+@import "colors";
+
+
+// ui constants
+$border-radius:2px;
+
+
+// styles
+.form-control {
+    border: 1px solid $border;
+    padding: 5px 8px;
+    color: $text-color;
+    background: $white;
+    box-shadow: none !important;
+    border-radius: $border-radius;
+}
+.form-control:focus {
+  border: 1px solid darken($border, 15%);;
+  background: #fff;
+  box-shadow: none;
+}
+.btn-success {
+  background-color: $confirm-color;
+  color:$white;
+  border-color: darken($confirm-color, 10%);
+  border-radius: $border-radius;
+}
+.btn-success:hover {
+  background-color: darken($confirm-color, 10%);
+  color:$white;
+  border-color: darken($confirm-color, 10%);
+}
+
+.form-horizontal {
+  padding-top: 100px;
+}
+.forgot-pass {
+  color:darken($border, 10%);
+  font-style: italic;
+  padding-left: 15px;
+}
+.forgot-pass:hover {
+  color:darken($border, 20%);
+  text-decoration: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: $white;
+}
+.space {
+  padding-top: 100px;
+}
